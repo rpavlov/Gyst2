@@ -20,7 +20,8 @@
 //= require ember
 //= require ember-data
 //= require_self
-//= require gyst2
+//= require app
 //= require_tree .
 
-Gyst2 = Ember.Application.create();
+
+App = Ember.Application.create();

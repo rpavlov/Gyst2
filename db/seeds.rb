@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Goalset.create(:title=>"hay1")
+Goalset.create(:title=>"hay2")
+Goalset.create(:title=>"hay3")

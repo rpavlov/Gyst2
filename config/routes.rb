@@ -1,6 +1,8 @@
 Gyst2::Application.routes.draw do
+  resources :goalsets
+  root :to => 'application#index'
+  match '/*path' => 'application#index'
 
-  root :to => 'gyst#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,10 +1,6 @@
-Gyst2.Router.map(function() {
-	this.resource('goalsets')
-
-});
-
-Gyst2.IndexRoute = Ember.Route.extend({
-	model: function(){
-		return Gyst2.Goalset.find();
-	}
+App.Router.map(function() {
+	this.resource('goalsets', function(){
+		this.route('new');
+		this.resource('goalset', {path: ':goalset_id'});
+	});
 });

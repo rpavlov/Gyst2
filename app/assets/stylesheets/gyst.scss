@@ -1,0 +1,124 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+header, #goalset-container{
+	background: whiteSmoke;
+}
+
+#goalset-container, #efficiency-section{
+
+	ul{
+		list-style: none;
+		li{
+			margin: 0.5em;
+			
+			.content{
+				display:inline-block;
+				padding: 0 0.5em;
+			}
+
+			.controls{
+				float:right;
+			}
+		}
+	}
+}
+
+
+#daily-section{
+	padding-right: 2em;
+}
+
+#calendar {
+	margin: 2em 0;
+	td{
+		height: 4em; 
+		width: 5em ;
+	}
+}
+
+#goals-form{
+	background: #EFEFEF;
+	input[type="text"]{
+		width: 100%;
+		padding: 1em;
+		margin: 1em 0;
+	}
+
+	input[type="submit"]{
+		float:right;
+	}
+
+	form.new_goal{
+		margin:0;
+	}
+
+	.radio{
+		display:inline-block;
+		margin: 0 2em;
+		padding-left: 0;
+		input{
+			vertical-align: middle;
+		}
+	}
+
+	select{
+		width:49.5%;
+	}
+}
+
+.box, .devise{
+	padding: 1em;
+	margin: 1em;
+	background: white;
+	border: 1px solid #CCC;
+	-webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .25);
+	-moz-box-shadow: 0 3px 5px rgba(0,0,0,.25);
+	box-shadow: 0 3px 5px rgba(0, 0, 0, .25);
+	
+	.destroy_goalset{
+		float:right;
+		margin-right:0.5em;
+	}
+}
+
+.devise{
+	width:45em;
+	margin: 2em auto;
+	padding: 2em;
+}
+
+#bar-container{
+	background: #A0A0A0;
+}
+
+.rounded_bar_container{
+	height: 100% !important;
+}
+
+.vertical{
+	-webkit-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	margin-top: 1.5em;
+}
+
+.notice:empty, .alert:empty{
+	display:none;
+}
+
+.new-goal-button{
+	margin-left:0.15em;
+}
+
+.devise-inputs{
+	display:inline-block;
+	width:20em;
+	border-right: 1px dashed;
+}
+
+.login-description{
+	padding: 1em 0 0 1em;
+	display:inline-block;
+	width:20em;
+}
