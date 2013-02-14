@@ -1,16 +1,9 @@
 App.GoalsetsNewRoute = Ember.Route.extend({
+
+	renderTemplate: function(){
+	}
+
 	model: function() {
-  	  // Because we are maintaining a transaction locally in the controller for editing,
-  	  // the new record needs to be created in the controller.
-    	return null;
-	},
-
-	setupController: function(controller) {
-		controller.startEditing();
-	},
-
-	exit: function() {
-		this._super();
-		this.controllerFor('goalsets.new').stopEditing();
+		return App.Goalset.createRecord();
 	}
 });

@@ -1,0 +1,1 @@
+App.GoalsetsEditRoute = Ember.Route.extend

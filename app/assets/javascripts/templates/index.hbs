@@ -1,8 +1,6 @@
 <div class="four columns">
-	<h2>Listing Goalsets</h2>
-	{{#each goalset in controller}}
-		<div id="goalset-container" class="box">
-			{{goalset.id}}
-		</div>
-	{{/each}}
+	{{view App.GoalsetsListView}}
+</div>
+<div class="four columns">
+	{{view App.GoalsetsNewView}}
 </div>

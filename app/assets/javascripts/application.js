@@ -17,8 +17,6 @@
 //= require ember
 //= require ember-data
 //= require handlebars
-//= require ember
-//= require ember-data
 //= require_self
 //= require app
 //= require_tree .

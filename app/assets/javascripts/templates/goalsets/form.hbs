@@ -1,0 +1,7 @@
+<h2>Create/Edit</h2>
+{{#with goalset}}
+	{{view Ember.TextField valueBinding="title" placeholder="New Goalset"}}
+	<button type="submit">
+		{{#if id}}Update{{else}}Create{{/if}}
+	</button>
+{{/with}}
